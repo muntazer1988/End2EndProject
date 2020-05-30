@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="143650" started-at="2020-05-29T11:12:44 EDT" finished-at="2020-05-29T11:15:08 EDT">
+    <groups>
+    </groups>
+    <test name="LogoValidate" duration-ms="27747" started-at="2020-05-29T11:12:44 EDT" finished-at="2020-05-29T11:13:12 EDT">
+      <class name="Framework.End2End.LogoValidate">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:Framework.End2End.LogoValidate@525b461a]" name="initializing" is-config="true" duration-ms="25020" started-at="2020-05-29T11:12:44 EDT" finished-at="2020-05-29T11:13:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:Framework.End2End.LogoValidate@525b461a]" name="basePageNavigation" duration-ms="88" started-at="2020-05-29T11:13:09 EDT" finished-at="2020-05-29T11:13:09 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at Framework.End2End.LogoValidate.basePageNavigation(LogoValidate.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Framework.End2End.LogoValidate@525b461a]" name="tearDown" is-config="true" duration-ms="486" started-at="2020-05-29T11:13:11 EDT" finished-at="2020-05-29T11:13:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Framework.End2End.LogoValidate -->
+    </test> <!-- LogoValidate -->
+    <test name="ValidateTitle" duration-ms="28317" started-at="2020-05-29T11:12:44 EDT" finished-at="2020-05-29T11:13:13 EDT">
+      <class name="Framework.End2End.ValidateTitle">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:Framework.End2End.ValidateTitle@15bb6bea]" name="initializing" is-config="true" duration-ms="25812" started-at="2020-05-29T11:12:44 EDT" finished-at="2020-05-29T11:13:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Framework.End2End.ValidateTitle@15bb6bea]" name="basePageNavigation" duration-ms="77" started-at="2020-05-29T11:13:10 EDT" finished-at="2020-05-29T11:13:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Framework.End2End.ValidateTitle@15bb6bea]" name="tearDown" is-config="true" duration-ms="2414" started-at="2020-05-29T11:13:10 EDT" finished-at="2020-05-29T11:13:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Framework.End2End.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test name="homePage" duration-ms="143650" started-at="2020-05-29T11:12:44 EDT" finished-at="2020-05-29T11:15:08 EDT">
+      <class name="Framework.End2End.HomePage">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:Framework.End2End.HomePage@448ff1a8]" name="initializing" is-config="true" duration-ms="23512" started-at="2020-05-29T11:12:44 EDT" finished-at="2020-05-29T11:13:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.End2End.HomePage@448ff1a8]" name="basePageNavigation" duration-ms="58423" started-at="2020-05-29T11:13:08 EDT" data-provider="getData" finished-at="2020-05-29T11:14:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[omid.muntazeer@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[costco12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[costco12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.End2End.HomePage@448ff1a8]" name="basePageNavigation" duration-ms="59302" started-at="2020-05-29T11:14:06 EDT" data-provider="getData" finished-at="2020-05-29T11:15:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcpapa@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcpapa@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Framework.End2End.HomePage@448ff1a8]" name="tearDown" is-config="true" duration-ms="2350" started-at="2020-05-29T11:15:06 EDT" finished-at="2020-05-29T11:15:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Framework.End2End.HomePage -->
+    </test> <!-- homePage -->
+  </suite> <!-- Suite -->
+</testng-results>
